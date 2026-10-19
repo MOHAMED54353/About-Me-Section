@@ -1,43 +1,54 @@
 <div align="center">
 
-#  About Me Section
+# About Me Section
 
-A responsive **About Me** section built with HTML and CSS to introduce myself, showcase my technical skills, and link to my social profiles.
+A clean and responsive personal introduction section built with **HTML5 and CSS3** to showcase my profile, technical skills, and social links.
 
-[![Live Demo](https://img.shields.io/badge/Live-Demo-red?style=for-the-badge)](https://about-me-two-lyart.vercel.app)
+<br>
+
+[![Live Demo](https://img.shields.io/badge/Live_Demo-Visit_Website-red?style=for-the-badge\&logo=vercel\&logoColor=white)](https://about-me-two-lyart.vercel.app)
 
 </div>
 
 ---
 
-##  Features
+## ✨ Features
 
-- Profile image with a smooth hover overlay revealing social links
-- Social links: GitHub, LinkedIn, and Portfolio
-- Skills displayed as icon cards with a tooltip showing each skill name on hover
-- Fully responsive layout for desktop, tablet, and mobile
-- Clean, minimal design with a red accent color
+* **Profile Introduction** — A personal introduction with a profile image and a brief description.
+* **Interactive Hover Effect** — A smooth overlay reveals social media links when hovering over the profile image.
+* **Social Links** — Quick access to GitHub, LinkedIn, and my portfolio.
+* **Skills Showcase** — Technology icons displayed in interactive cards with tooltips.
+* **Responsive Design** — Adapts to desktop, tablet, and mobile screens.
+* **Modern UI** — A clean, minimal layout with smooth transitions and red accent styling.
 
-##  Built With
+## 🛠️ Built With
 
-- **HTML5** for the page structure
-- **CSS3** (Flexbox, transitions, media queries)
-- **Font Awesome** for social icons
-- **Devicon** for technology icons
+| Technology   | Purpose                                               |
+| ------------ | ----------------------------------------------------- |
+| HTML5        | Page structure and content                            |
+| CSS3         | Styling, Flexbox, transitions, and responsive layouts |
+| Font Awesome | Social media icons                                    |
+| Devicon      | Programming language and technology icons             |
 
-```
+## 🚀 Live Demo
+
+Explore the deployed project:
+
+**[About Me Section](https://about-me-two-lyart.vercel.app)**
+
 ## 👨‍💻 Author
 
-**Muhammed El-Sayed**, Front-End Developer
+**Muhammed El-Sayed**
+Front-End Developer
 
-- GitHub: [MOHAMED54353](https://github.com/MOHAMED54353)
-- LinkedIn: [Muhammed El-Sayed](https://www.linkedin.com/in/muhammed-el-sayed-416739282/)
-- Portfolio: [muhammed-app.vercel.app](https://muhammed-app.vercel.app)
+* **GitHub:** [MOHAMED54353](https://github.com/MOHAMED54353)
+* **LinkedIn:** [Muhammed El-Sayed](https://www.linkedin.com/in/muhammed-el-sayed-416739282/)
+* **Portfolio:** [Visit My Portfolio](https://muhammed-app.vercel.app)
 
 ---
 
 <div align="center">
 
-*Built as a front-end practice project to improve my HTML and CSS skills.*
+*Built with HTML and CSS as a front-end practice project.*
 
 </div>
