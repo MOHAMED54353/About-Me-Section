@@ -2,7 +2,7 @@
 
 A simple and responsive **About Me** section built with HTML and CSS to introduce myself, showcase my technical skills, and provide links to my social profiles.
 
-## ✨ Features
+##  Features
 
 * Profile image with a hover overlay effect.
 * Social media links (GitHub, LinkedIn, and Portfolio).
@@ -10,18 +10,18 @@ A simple and responsive **About Me** section built with HTML and CSS to introduc
 * Clean and simple layout.
 * Font Awesome and Devicon icons integration.
 
-## 🛠️ Technologies Used
+##  Technologies Used
 
 * HTML5
 * CSS3
 * Font Awesome
 * Devicon
 
-## 📸 Overview
+##  Overview
 
 This project showcases a personal introduction section featuring my profile, a short description, social links, and technical skills.
 
-## 👨‍💻 Author
+##  Author
 
 **Muhammed El-Sayed**
 
