@@ -1,34 +1,54 @@
-# About Me Section
+<div align="center">
 
-A simple and responsive **About Me** section built with HTML and CSS to introduce myself, showcase my technical skills, and provide links to my social profiles.
+# 👤 About Me Section
 
-##  Features
+A responsive **About Me** section built with HTML and CSS to introduce myself, showcase my technical skills, and link to my social profiles.
 
-* Profile image with a hover overlay effect.
-* Social media links (GitHub, LinkedIn, and Portfolio).
-* Technical skills displayed using technology icons.
-* Clean and simple layout.
-* Font Awesome and Devicon icons integration.
+[![Live Demo](https://img.shields.io/badge/Live-Demo-red?style=for-the-badge)](https://about-me-two-lyart.vercel.app)
+![HTML5](https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white)
 
-##  Technologies Used
-
-* HTML5
-* CSS3
-* Font Awesome
-* Devicon
-
-##  Overview
-
-This project showcases a personal introduction section featuring my profile, a short description, social links, and technical skills.
-
-##  Author
-
-**Muhammed El-Sayed**
-
-* GitHub: [MOHAMED54353](https://github.com/MOHAMED54353)
-* LinkedIn: [Muhammed El-Sayed](https://www.linkedin.com/in/muhammed-el-sayed-416739282/)
-* Portfolio: [Visit My Portfolio](https://muhammed-app.vercel.app)
+</div>
 
 ---
 
+## ✨ Features
+
+- Profile image with a smooth hover overlay revealing social links
+- Social links: GitHub, LinkedIn, and Portfolio
+- Skills displayed as icon cards with a tooltip showing each skill name on hover
+- Fully responsive layout for desktop, tablet, and mobile
+- Clean, minimal design with a red accent color
+
+## 🛠️ Built With
+
+- **HTML5** for the page structure
+- **CSS3** (Flexbox, transitions, media queries)
+- **Font Awesome** for social icons
+- **Devicon** for technology icons
+
+## 📁 Project Structure
+
+```
+About-Me-Section/
+├── image/
+│   └── jj.jpg
+├── index.html
+├── style.css
+└── README.md
+```
+## 👨‍💻 Author
+
+**Muhammed El-Sayed**, Front-End Developer
+
+- GitHub: [MOHAMED54353](https://github.com/MOHAMED54353)
+- LinkedIn: [Muhammed El-Sayed](https://www.linkedin.com/in/muhammed-el-sayed-416739282/)
+- Portfolio: [muhammed-app.vercel.app](https://muhammed-app.vercel.app)
+
+---
+
+<div align="center">
+
 *Built as a front-end practice project to improve my HTML and CSS skills.*
+
+</div>
