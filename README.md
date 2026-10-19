@@ -12,7 +12,7 @@ A clean and responsive personal introduction section built with **HTML5 and CSS3
 
 ---
 
-## ✨ Features
+##  Features
 
 * **Profile Introduction** — A personal introduction with a profile image and a brief description.
 * **Interactive Hover Effect** — A smooth overlay reveals social media links when hovering over the profile image.
@@ -21,7 +21,7 @@ A clean and responsive personal introduction section built with **HTML5 and CSS3
 * **Responsive Design** — Adapts to desktop, tablet, and mobile screens.
 * **Modern UI** — A clean, minimal layout with smooth transitions and red accent styling.
 
-## 🛠️ Built With
+##  Built With
 
 | Technology   | Purpose                                               |
 | ------------ | ----------------------------------------------------- |
@@ -30,13 +30,8 @@ A clean and responsive personal introduction section built with **HTML5 and CSS3
 | Font Awesome | Social media icons                                    |
 | Devicon      | Programming language and technology icons             |
 
-## 🚀 Live Demo
 
-Explore the deployed project:
-
-**[About Me Section](https://about-me-two-lyart.vercel.app)**
-
-## 👨‍💻 Author
+##  Author
 
 **Muhammed El-Sayed**
 Front-End Developer
