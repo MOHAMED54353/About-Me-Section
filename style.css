@@ -76,27 +76,54 @@
 .skill ul {
     display: flex;
     flex-wrap: wrap;
-    width: 100%;
-    justify-content: space-between;
+    gap: 18px;
     list-style: none;
     padding: 0;
+    margin: 0;
 }
 
 .skill ul li {
-    background-color: rgb(246, 145, 145);
-    width: calc(100% / 3 - 20px);
-    padding: 5px;
-    border-radius: 5px;
-    color: white;
-    margin: 10px 0;
-    text-align: center;
-    transition: all 0.5s ease-in-out;
+    position: relative;
+    width: 70px;
+    height: 70px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 36px;
+    background-color: #fff;
+    border: 2px solid #f1f1f1;
+    border-radius: 14px;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.08);
+    cursor: pointer;
+    transition: all 0.4s ease-in-out;
 }
 
 .skill ul li:hover {
+    transform: translateY(-8px);
+    border-color: red;
+    box-shadow: 0 10px 20px rgba(255, 0, 0, 0.2);
+}
+
+.skill ul li::after {
+    content: attr(data-name);
+    position: absolute;
+    bottom: 110%;
+    left: 50%;
+    transform: translateX(-50%) translateY(5px);
     background-color: red;
-    cursor: pointer;
-    transform: scale(1.1);
+    color: white;
+    font-size: 12px;
+    padding: 4px 8px;
+    border-radius: 5px;
+    white-space: nowrap;
+    opacity: 0;
+    pointer-events: none;
+    transition: all 0.3s ease;
+}
+
+.skill ul li:hover::after {
+    opacity: 1;
+    transform: translateX(-50%) translateY(0);
 }
 
 @media (max-width: 768px) {
@@ -114,6 +141,10 @@
         width: 100%;
         padding-left: 0;
     }
+
+    .skill ul {
+        justify-content: center;
+    }
 }
 
 @media (max-width: 480px) {
@@ -126,7 +157,13 @@
         width: 80%;
     }
 
+    .skill ul {
+        gap: 12px;
+    }
+
     .skill ul li {
-        width: calc(50% - 10px);
+        width: 60px;
+        height: 60px;
+        font-size: 30px;
     }
 }
