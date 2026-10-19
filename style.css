@@ -99,7 +99,7 @@
 }
 
 .skill ul li:hover {
-    transform: translateY(-8px);
+    transform: translateY(-5px);
     border-color: red;
     box-shadow: 0 10px 20px rgba(255, 0, 0, 0.2);
 }
