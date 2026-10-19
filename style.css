@@ -1,0 +1,132 @@
+.about {
+    width: 80%;
+    margin: auto;
+    padding-top: 90px;
+}
+
+.container {
+    display: flex;
+    justify-content: space-between;
+}
+
+.left {
+    width: 30%;
+    border-top: 4px solid red;
+    border-left: 4px solid red;
+    border-radius: 10px;
+}
+
+.image {
+    position: relative;
+    top: 20px;
+    left: 20px;
+}
+
+.image img {
+    width: 100%;
+    position: relative;
+    border-radius: 12px;
+    display: block;
+}
+
+.inner {
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0);
+    top: 100%;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    border-radius: 12px;
+    transition: all 0.5s ease-in-out;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    overflow: hidden;
+    font-size: 28px;
+}
+
+.image:hover .inner {
+    background-color: rgba(0, 0, 0, 0.5);
+    top: 0;
+}
+
+.inner i {
+    color: white;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+
+.inner i:hover {
+    color: red;
+}
+
+.right {
+    width: 70%;
+    padding-left: 50px;
+}
+
+.right h2 span {
+    color: red;
+}
+
+.skill {
+    margin-top: 30px;
+}
+
+.skill ul {
+    display: flex;
+    flex-wrap: wrap;
+    width: 100%;
+    justify-content: space-between;
+    list-style: none;
+    padding: 0;
+}
+
+.skill ul li {
+    background-color: rgb(246, 145, 145);
+    width: calc(100% / 3 - 20px);
+    padding: 5px;
+    border-radius: 5px;
+    color: white;
+    margin: 10px 0;
+    text-align: center;
+    transition: all 0.5s ease-in-out;
+}
+
+.skill ul li:hover {
+    background-color: red;
+    cursor: pointer;
+    transform: scale(1.1);
+}
+
+@media (max-width: 768px) {
+    .container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .left {
+        width: 60%;
+        margin-bottom: 40px;
+    }
+
+    .right {
+        width: 100%;
+        padding-left: 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .about {
+        width: 90%;
+        padding-top: 60px;
+    }
+
+    .left {
+        width: 80%;
+    }
+
+    .skill ul li {
+        width: calc(50% - 10px);
+    }
+}
